@@ -1,0 +1,12 @@
+
+ .media {
+   background-color: green;
+ }
+
+
+ /*wichtig kein Inline CSS auf dem HTML Tag sonst geht nicht, und immer nach der normalen Klasse reinsetzen*/
+ @media screen and (max-width: 600px) {
+  .media {
+    background-color:blue;
+  }
+}
